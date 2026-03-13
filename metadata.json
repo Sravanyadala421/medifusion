@@ -1,0 +1,9 @@
+
+{
+  "name": "MediFusion – Smart Health Diagnosis & Assistance Platform",
+  "description": "A comprehensive healthcare platform providing AI-driven medicine analysis, safety checking, doctor recommendations, and appointment management with a modern medical interface.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
