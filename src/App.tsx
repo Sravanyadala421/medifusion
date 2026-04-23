@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, Navigate, Link, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, Link, useNavigate } from 'react-router-dom';
 import {
   Heart,
   LayoutDashboard,
@@ -18,7 +18,7 @@ import {
   CreditCard
 } from 'lucide-react';
 
-import { User as UserType, Appointment } from './types';
+import { User as UserType, Appointment } from '../types';
 import LoginPage from './pages/LoginPage';
 import Dashboard from './pages/Dashboard';
 import DoctorListing from './pages/DoctorListing';
